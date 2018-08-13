@@ -1,5 +1,6 @@
 body { 
 text-align: center;
+margin: 0;
  }
 
 .top {
@@ -8,20 +9,22 @@ text-align: center;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
-	color: #f15B31;
+	color: #ffffff;
+	margin: 0 20px;
+
 }
 
 h1 {
 	font-family: Raleway;
-	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
+	margin: 0;
+	text-transform: capitalize;
 }
 
 h2 {
 	font-family: Raleway;
-	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
@@ -35,7 +38,6 @@ p {
 
 h5 {
 	font-family: Raleway;
-	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 400;
 	text-decoration: none;
@@ -43,5 +45,74 @@ h5 {
 
 a {
 	text-decoration: none;
-	color: #f15B31;
+	border-bottom: 2px solid transparent;
+	
 }
+
+a:visited {
+	color: white;
+}
+
+header {
+	background-color: #f15B31;
+	color: #ffffff;
+	padding: 20px 20px;
+
+}
+
+nav {
+	background-color: #00a6b3;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+main
+{
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin:40px 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 5px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+	margin: 0 auto;
+}
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.copyright, .message {
+	font-size: 14px;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #f15B31;
+	font-weight: 700;
+}
+
+a:hover {
+border-bottom: 2px solid white;
+}
+
